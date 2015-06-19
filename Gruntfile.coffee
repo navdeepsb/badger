@@ -32,7 +32,7 @@ module.exports = ( grunt ) ->
 		coffee:
 			options:
 				bare: true
-				sourceMap: true
+				sourceMap: false
 			badger:
 				files:
 					"<%= path.dist %>/jquery-badger.js": [ "<%= path.src %>/jquery-badger.coffee" ]
@@ -45,8 +45,8 @@ module.exports = ( grunt ) ->
 				report: "min"
 				banner: """
 					/*!
-					 * BadgerJS
-					 * --------
+					 * Badger
+					 * ------
 					 * @ver <%= pkg.version %>
 					 * @desc <%= pkg.description %>
 					 * @dependencies jQuery

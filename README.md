@@ -19,6 +19,7 @@ Warn Badger:
 
 Of course, you can [change the appearance](#custom-badger "Example of customized Badger") of all the types of Badgers.
 
+
 ## Usage ##
 __Step 1.)__ Import `jQuery` and `Badger` in your webpage:
 ```js
