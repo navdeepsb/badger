@@ -1,7 +1,7 @@
 {
   "name": "badger",
   "version": "1.0.0",
-  "description": "A notification framework for webpages",
+  "description": "A notification library for webpages",
   "main": "src/jquery-badger.coffee",
   "keywords": [
     "jquery",

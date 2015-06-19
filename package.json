@@ -1,7 +1,7 @@
 {
   "name": "badger",
   "version": "1.0.0",
-  "description": "A notification framework for webpages",
+  "description": "A notification library for webpages",
   "author": "Navdeep Singh Bagga <navdeepb3191@gmail.com>",
   "repository": {
     "type": "git",
