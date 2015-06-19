@@ -1,0 +1,24 @@
+{
+  "name": "badger",
+  "version": "1.0.0",
+  "description": "A notification framework for webpages",
+  "main": "src/jquery-badger.coffee",
+  "keywords": [
+    "jquery",
+    "notify",
+    "notification",
+    "badger",
+    "library",
+    "plugin"
+  ],
+  "authors": [
+    "Navdeep Singh Bagga <navdeepb3191@gmail.com>"
+  ],
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}

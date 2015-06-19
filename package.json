@@ -1,0 +1,15 @@
+{
+  "name": "badger",
+  "version": "1.0.0",
+  "description": "A notification framework for webpages",
+  "author": "Navdeep Singh Bagga <navdeepb3191@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-uglify": "^0.7.0"
+  }
+}

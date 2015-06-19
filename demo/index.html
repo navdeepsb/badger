@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Badger by Navi</title>
+	<style>body{font-family: "Segoe UI",Calibri;font-size: 0.90em}em{color: red;}</style>
+</head>
+<body>
+
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../dist/jquery-badger.js"></script>
+	<script>
+		// Create an instance of Badger:
+		var badger = Badger();
+
+		// Initialize Badger ( with / without a config ):
+		badger.init( { persist : true } );
+
+		// badger.show( "Login successful", "success" );
+		// badger.show( "Wrong credentials", "error" );
+		// badger.show( "Invalid email address", "warn" );
+
+		// badger.show( "This one is going to be a <em>pretty</em> <em>long</em> text for a <em>tiny</em> notification message. Just bear with it, okay?! <br /> I will not put <em>some</em> <strong>lorem ipsum</strong> stuff in it. <br /> - <i>Navdeep</i>", "typo" );
+
+		var customBadger = Badger();
+		customBadger.init({
+			persist: true,
+			showIcon: true,
+			borderRadius: 40,
+			theme: {
+				success: {
+					background: '#aee239',
+					borderColor: '#a9e02d'
+				},
+				warn: {
+					background: '#ff9c5b',
+					borderColor: '#ff9651'
+				},
+				error: {
+					background: '#FF6B6B',
+					borderColor: '#ff6060'
+				}
+			}
+		});
+		customBadger.show( "Invalid email addresss", "warn" );
+		customBadger.show( "Wrong credentials", "error" );
+		customBadger.show( "Login successful" );
+
+	</script>
+</body>
+</html>

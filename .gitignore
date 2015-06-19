@@ -1,0 +1,12 @@
+# Project dependencies
+bower_components
+
+# Tasks
+node_modules
+
+# Build related
+dist
+
+# Work in progress
+badger.coffee
+todo.md
