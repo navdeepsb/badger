@@ -3,7 +3,7 @@ Badger
 
 Badger ( or BadgerJS ) is a highly customizable notification library for webpages. It has a sole dependency on [jQuery](https://jquery.com/ "jQuery") at the present.
 
-Badger is used to pop out a notification text in the form of a slick card on the top of the webpage to "badger" the user. This Badger stays for a while before dismissing itself ( configurable behaviour ) or it can be forced to go away before the "stay" time by simply tapping on it.
+Badger is used to pop out a notification text in the form of a slick card on the top of the webpage to "badger" the user. This Badger stays for a while before dismissing itself ( [configurable](#configure-badger "Configuring Badger") behaviour ) or it can be forced to go away before the "stay" time by simply tapping on it.
 
 Success Badger:
 
@@ -32,7 +32,7 @@ __Step 2.)__ Create a Badger instance:
 var badger = Badger();
 
 // Config ( optional ):
-var config = {};
+var config = {...};
 
 // Initialize current instance:
 badger.init( config );
@@ -96,7 +96,7 @@ badger.show( "Payment successful!", "warn", { stayTime : 10 } );
 ```
 
 
-## Configuring Badger ##
+## <a name="configure-badger"></a> Configuring Badger ##
 Below are all the options that can be passed in the configuration hash:
 
 ##### stayTime ####
@@ -184,7 +184,7 @@ customBadger.init({
 		},
 		error: {
 			background  : '#FF6B6B',
-			borderColor  : '#ff6060'
+			borderColor : '#ff6060'
 		}
 	}
 });
