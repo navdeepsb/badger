@@ -23,8 +23,7 @@
   "ignore": [
     "*",
     "!dist/*",
-    "!LICENSE.txt",
-    "!README.md"
+    "!LICENSE.txt"
   ],
   "dependencies": {
     "jquery": "~2.1.3"
