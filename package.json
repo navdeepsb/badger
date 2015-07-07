@@ -1,6 +1,6 @@
 {
   "name": "badger",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A notification library for webpages",
   "author": "Navdeep Singh Bagga <navdeepb3191@gmail.com>",
   "license": "MIT",

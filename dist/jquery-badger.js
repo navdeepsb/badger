@@ -2,7 +2,7 @@
 /*
  * BadgerJS
  * --------
- * @ver 1.0.0
+ * @ver 1.0.3
  * @desc A notification library for webpages
  * @dependencies jQuery
  * @author Navi
