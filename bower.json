@@ -22,9 +22,9 @@
   },
   "ignore": [
     "*",
-    "!dist",
-    "LICENSE.txt",
-    "README.md"
+    "!dist/*",
+    "!LICENSE.txt",
+    "!README.md"
   ],
   "dependencies": {
     "jquery": "~2.1.3"
