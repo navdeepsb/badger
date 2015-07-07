@@ -2,7 +2,7 @@
   "name": "badger",
   "version": "1.0.0",
   "description": "A notification library for webpages",
-  "main": "src/jquery-badger.coffee",
+  "main": "dist/jquery-badger.js",
   "keywords": [
     "jquery",
     "notify",
@@ -14,9 +14,18 @@
   "authors": [
     "Navdeep Singh Bagga <navdeepb3191@gmail.com>"
   ],
+  "license": "MIT",
+  "homepage": "https://github.com/navdeepsb/badger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navdeepsb/badger.git"
+  },
   "ignore": [
+    "**/*",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "Gruntfile.coffee",
+    "package.json"
   ],
   "dependencies": {
     "jquery": "~2.1.3"

@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A notification library for webpages",
   "author": "Navdeep Singh Bagga <navdeepb3191@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/navdeepsb/badger.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

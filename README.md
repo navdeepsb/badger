@@ -20,6 +20,22 @@ Warn Badger:
 Of course, you can [change the appearance](#custom-badger "Example of customized Badger") of all the types of Badgers.
 
 
+## Getting Badger ##
+__Method 1.)__ [Bower](http://bower.io/ "Bower") installation
+Navigate to your project directory in any command line tool and type
+```shell
+bower install --save badger-js
+```
+Not a fan of Bower? Use method #2 instead
+
+
+__Method 2.)__ Manual installation
+- Go to the project [home page](https://GitHub.com/navdeepsb/badger "Badger") on GitHub
+- Open the `dist` directory
+- Grab the minified or the un-minified source file and put it in your project's `libs` directory
+- Import this source file into your webpage
+
+
 ## Usage ##
 __Step 1.)__ Import `jQuery` and `Badger` in your webpage:
 ```js
